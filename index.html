@@ -12,7 +12,30 @@
   <title> My Personal Website </title>
 </head>
 
-  <body> 
-    hhhhh
+  <body bgcolor="white" text="blue">
+    <h1 style="background-color:Orange;"> My first page </h1>
+    
+    <p>This is my first web page and I can say anything I want in here - I do that by
+    putting text or images in the body section - where I'm typing right now :)<p>
+    
+    <button type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()">
+      Click me to display Date and Time.
+    </button>
+    <p id="demo"></p>
+
+    <form action="/action_page.php">
+      First name:<br>
+      <input type="text" name="firstname">
+        <br>
+      Last name:<br>
+      <input type="text" name="lastname">
+        <br><br>
+      <button type="button"
+      onclick="document.getElementById('demo1').innerHTML = "Hello">
+      Click
+      </button>
+      <p id="demo1"></p>
+    </form> 
 </body>
 </html>
