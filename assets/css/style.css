@@ -1,29 +1,19 @@
-/**
-* Template Name: Squadfree - v2.0.0
-* Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #67b0d1;
+  color: #3F9FFA;
 }
 
 a:hover {
-  color: #8ec4dd;
+  color: #3F9FFA;
   text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "TimeNewsRoman", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -37,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #67b0d1;
+  background: #3F9FFA;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #86c0da;
+  background: #90BCE5;
   transition: background 0.2s ease-in-out;
 }
 
@@ -68,19 +58,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-scrolled {
-  background: rgba(103, 176, 209, 0.8);
+  background: rgba(63, 159, 251, 0.75);
   height: 60px;
   padding: 10px 0;
 }
 
 #header .logo h1 {
-  font-size: 24px;
+  font-size: 25px;
   margin: 0;
-  padding: 6px 0;
+  padding: 7px 0;
   line-height: 1;
   font-weight: 700;
+  text-shadow: -1px 0 2px #2f4d5a;
   letter-spacing: 1px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Railway", sans-serif;
   text-transform: uppercase;
 }
 
@@ -117,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
   white-space: nowrap;
   float: left;
   margin-top: -10px;
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .nav-menu a {
@@ -126,14 +117,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #2f4d5a;
   padding: 20px 15px;
   transition: 0.3s;
-  font-size: 13px;
-  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-family: "Arial", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.8);
   text-decoration: none;
 }
 
@@ -146,7 +137,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-scrolled .nav-menu a:hover, .header-scrolled .nav-menu .active > a, .header-scrolled .nav-menu li:hover > a {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .nav-menu .drop-down ul {
@@ -160,11 +151,11 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-  transition: ease all 0.3s;
+  transition: ease all 1s;
 }
 
 .nav-menu .drop-down:hover > ul {
-  opacity: 1;
+  opacity: 0.9;
   top: 100%;
   visibility: visible;
 }
@@ -176,14 +167,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-menu .drop-down ul a {
   padding: 12px 20px;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: 500;
   text-transform: none;
-  color: #25607a;
+  color: #3F9FFA;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: #67b0d1;
+  color: #90BCE5;
 }
 
 .nav-menu .drop-down > a:after {
@@ -198,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu .drop-down .drop-down:hover > ul {
-  opacity: 1;
+  opacity: 0.9;
   top: 0;
   left: 100%;
 }
@@ -234,7 +225,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 9998;
   border: 0;
   background: none;
-  font-size: 24px;
+  font-size: 25px;
   transition: all 0.4s;
   outline: none !important;
   line-height: 1;
@@ -278,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-  color: #67b0d1;
+  color: #3F9FFA;
   text-decoration: none;
 }
 
@@ -339,7 +330,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("../img/Zumba1.jpg") top center;
   background-size: cover;
   position: relative;
 }
@@ -359,7 +350,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 64px;
+  font-size: 65px;
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
@@ -370,7 +361,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero h2 {
   color: #fff;
   margin-bottom: 50px;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 700;
   text-shadow: -1px 0 2px #2f4d5a;
@@ -430,7 +421,7 @@ section {
 }
 
 .section-title h2 {
-  font-size: 32px;
+  font-size: 35px;
   font-weight: bold;
   position: relative;
   margin-bottom: 30px;
@@ -438,7 +429,7 @@ section {
   z-index: 2;
 }
 
-.section-title h2::after {
+/*.section-title h2::after {
   content: "";
   position: absolute;
   left: 50%;
@@ -448,7 +439,7 @@ section {
   height: 66px;
   background: url(../img/section-title-bg.png) no-repeat;
   z-index: -1;
-}
+}*/
 
 .section-title p {
   margin-bottom: 0;
@@ -458,7 +449,8 @@ section {
 # About
 --------------------------------------------------------------*/
 .about {
-  background: url("../img/about-bg.jpg") center center no-repeat;
+  /*background: url("../img/about-bg.jpg") center center no-repeat;*/
+  background-color: #DEDEDE;
   background-size: cover;
   padding: 60px 0;
   position: relative;
@@ -497,7 +489,7 @@ section {
 
 .about .content .about-btn {
   display: inline-block;
-  background: #67b0d1;
+  background: #3F9FFA;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -513,7 +505,7 @@ section {
 }
 
 .about .content .about-btn:hover {
-  background: #7bbad7;
+  background: #90BCE5;
 }
 
 .about .icon-boxes .icon-box {
@@ -522,18 +514,18 @@ section {
 
 .about .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #67b0d1;
+  color: #3F9FFA;
   margin-bottom: 10px;
 }
 
 .about .icon-boxes .icon-box h4 {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
   margin: 0 0 10px 0;
 }
 
 .about .icon-boxes .icon-box p {
-  font-size: 15px;
+  font-size: 16px;
   color: #848484;
 }
 
@@ -576,7 +568,7 @@ section {
 }
 
 .services .icon-box:hover::before {
-  background: #67b0d1;
+  background: #3F9FFA;
   top: 0;
   border-radius: 0px;
 }
@@ -588,14 +580,14 @@ section {
 .services .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #67b0d1;
+  color: #3F9FFA;
   transition: all 0.3s ease-in-out;
 }
 
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .services .title a {
@@ -603,7 +595,7 @@ section {
 }
 
 .services .description {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 28px;
   margin-bottom: 0;
 }
@@ -670,14 +662,14 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(103, 176, 209, 0.8), rgba(103, 176, 209, 0.8)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(63, 159, 251, 0.75), rgba(63, 159, 251, 0.75));
   background-size: cover;
   padding: 60px 0;
 }
 
 .cta h3 {
   color: #fff;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -686,7 +678,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Arial", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -735,7 +727,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #67b0d1;
+  color: #3F9FFA;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -769,7 +761,7 @@ section {
   bottom: -60px;
   z-index: 3;
   position: absolute;
-  transition: all ease-in-out 0.3s;
+  transition: all ease-in-out 0.5s;
   display: flex;
   justify-content: center;
 }
@@ -778,13 +770,13 @@ section {
   color: #fff;
   font-size: 28px;
   text-align: center;
-  background: rgba(103, 176, 209, 0.75);
+  background: rgba(63, 159, 251, 0.75);
   transition: 0.3s;
   width: 50%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: rgba(103, 176, 209, 0.95);
+  background: rgba(63, 159, 251, 0.95);
 }
 
 .portfolio .portfolio-wrap .portfolio-links a + a {
@@ -800,7 +792,7 @@ section {
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
-  opacity: 1;
+  opacity: 0.9;
   bottom: 0;
 }
 
@@ -917,7 +909,7 @@ section {
   right: 20px;
   background: #fff;
   padding: 20px 0;
-  color: #2f4d5a;
+  color: #3F9FFA;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   max-height: 95px;
   overflow: hidden;
@@ -931,7 +923,7 @@ section {
 .team .member h4 {
   font-weight: 700;
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 18px;
   color: #2f4d5a;
   position: relative;
   padding-bottom: 10px;
@@ -960,11 +952,11 @@ section {
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #52869d;
+  color: #078CC8;
 }
 
 .team .member .social a:hover {
-  color: #67b0d1;
+  color: #3F9FFA;
 }
 
 .team .member .social i {
@@ -986,7 +978,7 @@ section {
 }
 
 .contact .info-box {
-  color: #444444;
+  color: #078CC8;
   background: #fff;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
@@ -995,7 +987,7 @@ section {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #67b0d1;
+  color: #078CC8;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
@@ -1086,7 +1078,7 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #67b0d1;
+  background: #078CC8;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1119,7 +1111,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #263f49;
+  background: #005982;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -1157,7 +1149,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2f4d5a;
+  background: #005982;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1170,7 +1162,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #67b0d1;
+  background: #078CC8;
   color: #fff;
   text-decoration: none;
 }
